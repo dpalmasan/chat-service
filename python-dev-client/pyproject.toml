@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python-dev-client"
+version = "0.1.0"
+description = "Dev client for the chat service"
+authors = ["dpalmasan <dpalmasan@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.1"
+flake8 = "^4.0.1"
+black = "^22.3.0"
+pre-commit = "^2.18.1"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
